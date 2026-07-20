@@ -31,7 +31,7 @@ jobs:
         run: yarn build
 
       - name: Install Capacitor
-        run: npm install --no-save @capacitor/core @capacitor/android @capacitor/cli
+        run: npm install --no-save --legacy-peer-deps @capacitor/core @capacitor/android @capacitor/cli
 
       - name: Add Android platform
         run: npx cap add android
