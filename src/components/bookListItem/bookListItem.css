@@ -53,6 +53,18 @@
   width: calc(100% - 250px);
   float: left;
 }
+
+@media screen and (max-width: 700px) {
+  .book-item-list-author {
+    display: none;
+  }
+  .book-item-list-percentage {
+    width: 45px;
+  }
+  .book-item-list-subtitle {
+    width: calc(100% - 45px);
+  }
+}
 .book-item-list-subtitle-text {
   float: left;
   display: -webkit-box;

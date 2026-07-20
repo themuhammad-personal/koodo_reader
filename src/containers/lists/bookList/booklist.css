@@ -15,6 +15,14 @@
   left: 220px;
   width: calc(100% - 220px);
 }
+
+@media screen and (max-width: 700px) {
+  .book-list-container-parent,
+  .book-list-header {
+    left: 70px !important;
+    width: calc(100% - 70px) !important;
+  }
+}
 .book-list-header-right {
   display: flex;
   align-items: center;
